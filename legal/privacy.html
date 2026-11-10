@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Politique de confidentialité du bot PronoteDiscord.">
+  <title>Politique de confidentialité — PronoteDiscord</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f5f7fb; --card:#fff; --fg:#182230; --muted:#596579; --accent:#5865f2; --line:#e2e7ef; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#11151d; --card:#1b2230; --fg:#edf2fa; --muted:#aab5c6; --line:#303b4d; } }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:40px 18px; background:var(--bg); color:var(--fg); font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+    main { max-width:850px; margin:auto; padding:clamp(24px,5vw,52px); background:var(--card); border:1px solid var(--line); border-radius:18px; }
+    h1,h2 { line-height:1.25; }
+    h1 { margin-top:0; font-size:clamp(2rem,5vw,2.7rem); }
+    h2 { margin-top:2rem; font-size:1.25rem; }
+    p,li { color:var(--muted); }
+    a { color:var(--accent); }
+    .meta { font-size:.92rem; }
+    footer { margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    code { overflow-wrap:anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <p class="meta">PronoteDiscord</p>
+  <h1>Politique de confidentialité</h1>
+  <p class="meta"><strong>Dernière mise à jour :</strong> 10 novembre 2026</p>
+
+  <p>Cette politique explique quelles données peuvent être utilisées par PronoteDiscord, dans quel but et comment elles sont gérées. PronoteDiscord est un projet non officiel dont le code est destiné à être installé et hébergé par chaque utilisateur sur l'environnement de son choix.</p>
+
+  <h2>1. Responsable du traitement</h2>
+  <p>Chaque personne qui installe et exploite sa propre instance de PronoteDiscord est responsable des traitements de données effectués par cette instance. Ptisamy est le créateur et le mainteneur du projet, mais ne fournit pas, dans le fonctionnement standard du logiciel, de service d'hébergement centralisé et ne reçoit pas automatiquement les données traitées par les instances des utilisateurs.</p>
+  <p>Pour toute question concernant le projet, tu peux contacter Ptisamy à l'adresse suivante : <strong><a href="mailto:samb18390@gmail.com">samb18390@gmail.com</a></strong>.</p>
+
+  <h2>2. Données susceptibles d’être utilisées</h2>
+  <p>Selon la configuration de chaque instance, PronoteDiscord peut utiliser les catégories de données suivantes :</p>
+  <ul>
+    <li><strong>Données Discord :</strong> token du bot, identifiant du salon de destination et informations nécessaires à l'envoi des messages.</li>
+    <li><strong>Données Pronote :</strong> données de session ou jetons d'authentification, ainsi que les notes, matières, dates et devoirs nécessaires aux notifications.</li>
+    <li><strong>Données techniques :</strong> empreintes ou identifiants internes permettant de comparer les résultats entre deux vérifications, ainsi que des journaux d'erreurs si l'utilisateur les active.</li>
+  </ul>
+  <p>Le logiciel est conçu pour utiliser les informations nécessaires à ses fonctionnalités. Les données effectivement traitées dépendent toutefois de la configuration et de l'utilisation de chaque instance.</p>
+
+  <h2>3. Finalités</h2>
+  <p>Les données peuvent être utilisées pour :</p>
+  <ul>
+    <li>établir et maintenir les connexions aux services configurés ;</li>
+    <li>détecter les nouvelles notes et les nouveaux devoirs ;</li>
+    <li>éviter de renvoyer plusieurs fois les mêmes notifications ;</li>
+    <li>envoyer les notifications dans le salon Discord choisi ;</li>
+    <li>diagnostiquer les erreurs techniques, si des journaux sont activés.</li>
+  </ul>
+
+  <h2>4. Hébergement, stockage et conservation</h2>
+  <p>Chaque utilisateur choisit librement l'environnement sur lequel il installe et exécute PronoteDiscord. Les données de configuration, d'authentification et de suivi sont stockées dans cet environnement, selon le fonctionnement du logiciel et la configuration choisie par l'utilisateur. Cet environnement peut notamment être un ordinateur personnel ou un serveur d'hébergement.</p>
+  <p>Dans le fonctionnement standard du projet, Ptisamy ne collecte pas et ne stocke pas de manière centralisée les données traitées par les instances des utilisateurs. L'utilisateur qui exploite une instance est chargé de sécuriser son environnement, de définir les accès et de gérer la conservation ou la suppression des fichiers de cette instance.</p>
+  <p>La suppression des fichiers locaux de l'instance ne supprime pas les messages déjà envoyés sur Discord. Ces messages doivent être supprimés séparément sur Discord, si nécessaire.</p>
+
+  <h2>5. Destinataires et services tiers</h2>
+  <p>Les données ne sont pas destinées à être vendues par le projet. Pour assurer le fonctionnement du Bot, certaines informations peuvent être échangées avec les services tiers utilisés, notamment Discord et Pronote / Index Éducation. Les notifications publiées sont visibles par les personnes ayant accès au salon Discord de destination.</p>
+  <p>Discord et les services Pronote appliquent leurs propres conditions d'utilisation et politiques de confidentialité. Il appartient à chaque utilisateur de les consulter et de configurer correctement les accès à son compte et à son serveur.</p>
+
+  <h2>6. Sécurité</h2>
+  <p>Chaque utilisateur est responsable de la sécurité de l'environnement sur lequel il exécute son instance. Les fichiers contenant des secrets ou des données de session, notamment <code>.env</code> et <code>data/session.json</code>, doivent rester privés et ne jamais être publiés dans un dépôt public ou transmis à des personnes non autorisées.</p>
+  <p>Il est recommandé de limiter les permissions du bot Discord et l'accès à l'environnement d'hébergement. En cas de divulgation d'un token ou d'un identifiant, il convient de le révoquer ou de le renouveler auprès du service concerné.</p>
+
+  <h2>7. Droits des personnes</h2>
+  <p>Les personnes dont les données sont traitées peuvent disposer, selon la législation applicable et leur situation, de droits d'accès, de rectification, d'effacement, de limitation ou d'opposition. Pour les données traitées par une instance personnelle ou hébergée par un utilisateur, la demande doit être adressée à la personne qui exploite cette instance.</p>
+  <p>Pour toute question concernant le code ou le projet PronoteDiscord, tu peux contacter Ptisamy à l'adresse <strong><a href="mailto:samb18390@gmail.com">samb18390@gmail.com</a></strong>. Cette adresse ne remplace pas le contact du responsable de l'instance utilisée.</p>
+
+  <h2>8. Mineurs</h2>
+  <p>PronoteDiscord n'est pas conçu pour collecter volontairement des données auprès de personnes autres que celles nécessaires à son fonctionnement. Les utilisateurs mineurs doivent utiliser Pronote, Discord et les environnements d'hébergement conformément aux règles applicables et, lorsque nécessaire, avec l'accord de leur représentant légal.</p>
+
+  <h2>9. Modifications de cette politique</h2>
+  <p>Cette politique peut être mise à jour si le fonctionnement de PronoteDiscord ou les données utilisées évoluent. La date de dernière mise à jour est indiquée en haut de cette page.</p>
+
+  <h2>10. Contact</h2>
+  <p>Pour toute question concernant le projet, contacte Ptisamy à l'adresse : <strong><a href="mailto:samb18390@gmail.com">samb18390@gmail.com</a></strong>.</p>
+
+  <footer>© 2026, Ptisamy · PronoteDiscord</footer>
+</main>
+</body>
+</html>
