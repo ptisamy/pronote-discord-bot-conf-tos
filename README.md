@@ -1,0 +1,1 @@
+# pronote-discord-bot-conf-tos
